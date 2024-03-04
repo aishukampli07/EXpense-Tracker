@@ -1,22 +1,3 @@
-// import './App.css';
-// import { Typography,styled } from '@mui/material';
-
-// const Header = styled(Typography)`
-//   margin: 10px 0;
-//   color: blue;
-//   font-size: 36px;
-//   text-transform: uppercase;
-// `;
-// function App() {
-//   return (
-//     <div className="App">
-//      <Typography>Expense Tracker</Typography>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import { useState } from 'react';
 
 import { Typography, Box, styled } from '@mui/material';
@@ -39,6 +20,7 @@ const Component = styled(Box)`
   padding: 10px;
   border-radius: 20px;
   display: flex;
+  alignItems: centre;
   width: 800px;
   & > div {
     padding: 10px;

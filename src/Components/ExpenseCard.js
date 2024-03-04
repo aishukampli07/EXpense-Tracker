@@ -3,7 +3,7 @@ import { Card, CardContent, styled, Typography, Box } from '@mui/material';
 const Container = styled(Box)`
     display: flex;
     & > div {
-        flex: 1;
+        flex:2;
         padding: 10px;
     }
 `;
